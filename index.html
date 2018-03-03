@@ -3,10 +3,12 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Moazzam W Habib MD</title>
+		<title>Initial Apps | Simple Subscription SaaS</title>
 		<meta name="description" content="">
 		<meta name="author" content="">
-		
+
+		<link rel="shortcut icon" type="image/png" href="img/favicon.png"/>		
+
 		<!-- Bootstrap -->
 		<link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
 		<link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
@@ -17,7 +19,8 @@
 		<link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
 		<link rel="stylesheet" type="text/css" href="css/animate.min.css">
 		
-		<link href='http://fonts.googleapis.com/css?family=Roboto:400,700,800,600,300' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Raleway:400,700,800,600,300' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Lato:400,700,800,600,300' rel='stylesheet' type='text/css'>
 		
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -28,24 +31,23 @@
 	</head>
 	<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
-		<div id="preloader">
+		<!--<div id="preloader">
 			<div id="status"> <img src="img/preloader.gif" height="64" width="64" alt=""> </div>
-		</div>
+		</div>-->
 	
 		<!-- Navigation -->
-		<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+		<nav class="navbar navbar-custom" role="navigation">
 			<div class="container">
 				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse"> <i class="fa fa-bars"></i> </button>
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-sub-collapse"> <i class="fa fa-bars"></i> </button>
+					<a class="navbar-brand page-scroll" href="#page-top">IA</a>
 				</div>
 				<!-- Collect the nav links, forms, and other content for toggling -->
-				<div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+				<div class="collapse navbar-collapse navbar-right navbar-sub-collapse">
 					<ul class="nav navbar-nav">
 						<!-- Hidden li included to remove active class from about link when scrolled up past about section -->
 						<li class="hidden"> <a href="#page-top"></a> </li>
-						<li> <a href="https://www.onpatient.com"><i class="fa fa-user" aria-hidden="true"></i> Patient Portal | Bill Pay</a></li>
-						<li> <a href="#"><i class="fa fa-phone" aria-hidden="true"></i> P:(317)571-0030</a></li>
-						<li> <a href="#"><i class="fa fa-fax" aria-hidden="true"></i> F:(317)219-4690</a></li>
+						<li> <a class="page-scroll" href="#about">About</a> </li>
 					</ul>
 				</div>
 				<!-- /.navbar-collapse --> 
@@ -54,188 +56,91 @@
 			<!-- /.container --> 
 		</nav>
 				
-		<div class="navbar navbar-custom-sub navbar-static-top hidden-xs hidden-sm">
-			<div class="container">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-sub-collapse"> <i class="fa fa-bars"></i> </button>
-					<a class="navbar-brand page-scroll" href="#page-top">Moazzam W Habib MD</a>
-				</div>
-				<!-- Collect the nav links, forms, and other content for toggling -->
-				<div class="collapse navbar-collapse navbar-right navbar-sub-collapse">
-					<ul class="nav navbar-nav">
-						<!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-						<li class="hidden"> <a href="#page-top"></a> </li>
-						<li> <a class="page-scroll" href="#about">About</a> </li>
-						<li> <a class="page-scroll" href="#services">Services</a> </li>
-						<li> <a class="page-scroll" href="#team">Our Staff</a> </li>
-						<li> <a class="page-scroll" href="#testimonials">Testimonials</a> </li>
-						<li> <a class="page-scroll" href="#footer">Contact</a> </li>
-					</ul>
-				</div>
-			</div>
-		</div>
 		
 		<!-- Header -->
 		<div id="intro">
-			<div class="intro-body">
-    				<div class="container">
-    					<div class="row">
-						<div class="col-md-10 col-md-offset-1">
-							<h1 class="wow animated fadeIn" data-wow-delay="0.1s">Endocrinology Experts</h1>
-							<h3 class="wow animated fadeInLeft" data-wow-delay="0.6s">Serving Greater Indianapolis</h3>
-							<h4 class="wow animated fadeInLeft" data-wow-delay="0.6s">
-								<ul>
-									<li><a href="https://www.onpatient.com"><i class="fa fa-user" aria-hidden="true"></i> Patient Portal | Bill Pay </a></li>
-									<li><i class="fa fa-phone" aria-hidden="true"></i> P: (317)571-0030</li>
-									<li><i class="fa fa-fax" aria-hidden="true"></i> F: (317)219-4690</li>
-								</ul>
-							</h4>
+    			<div class="container">
+    				<div class="row">
+					<div class="col-md-4">
+						<div class="panel">
+							<div class="panel panel-heading text-center">
+								<h3>Schedule Free Consultation</h3>
+							</div>
+							<div class="panel panel-body">
+								<form>
+									<div class="form-group col-xs-12">
+										<input type="text" class="form-control" placeholder="Your Name" required>
+									</div>
+									<div class="form-group col-xs-12">
+										<input type="email" class="form-control" placeholder="Your Email" required>
+									</div>
+									<div class="form-group col-xs-12">
+										<button type="submit" class="btn btn-default" style="width:100%;">Submit</button>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-8">
+						<div class="intro-body">
+							<h1 class="wow animated fadeIn" data-wow-delay="0.1s">Simple Subscription SaaS</h1>
+							<h3 class="wow animated fadeInLeft" data-wow-delay="0.6s">Your custom business needs solved at a standard affordable monthly rate</h3>
 							<br>
-							<a href="#about" class="btn btn-default page-scroll wow animated fadeInUp" data-wow-delay="0.9s"><b>Learn More</b></a> 
 						</div>
 	    				</div>
 				</div>
 			</div>
 		</div>
 
+
 		<!-- About Section -->
 		<div id="about">
 			<div class="container">
 				<div class="section-title text-center center">
-					<h2>What We Treat</h2>
-					<hr>
-					<h4><i>We specialize in the treatment of endocrine conditions</i></h4>
-				</div>
-				<div class="row">
-					<div class="col-md-6" style="max-height:285px; overflow:hidden">
-						<div class="row">
-							<div class="col-md-offset-1 col-md-10">
-    								<div class="wow animated fadeIn" data-wow-delay="0.2s">
-									<img src="img/hold-hands.jpg" class="img-responsive" title="Endocrinology Specialists"></img>
-									<br><br>
-		    						</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-6">
-						<div class="wow animated fadeIn" data-wow-delay="0.4s">
-							<div class="row">
-								<div class="col-md-offset-2 col-md-10">
-									<ul>
-										<li><a href="http://www.webmd.com/diabetes/type-1-diabetes-guide/default.htm" target="_blank">Diabetes Type 1</a></li>
-										<li><a href="http://www.webmd.com/diabetes/type-2-diabetes-guide/default.htm" target="_blank">Diabetes Type 2</a></li>
-										<li><a href="http://www.webmd.com/diabetes/default.htm" target="_blank">Complications from Diabetes</a></li>
-										<li><a href="http://www.webmd.com/diet/obesity/tc/obesity-overview#1" target="_blank">Obesity</a></li>
-										<li><a href="http://www.webmd.com/hypertension-high-blood-pressure/default.htm" target="_blank">Hypertension</a></li>
-										<li><a href="http://www.webmd.com/a-to-z-guides/features/adrenal-fatigue-is-it-real" target="_blank">Adrenal Issues</a></li>
-										<li><a href="http://www.webmd.com/a-to-z-guides/parathyroid-hormone#1" target="_blank">Parathyroid Issues</a></li>
-										<li><a href="http://www.webmd.com/women/understanding-thyroid-problems-symptoms" target="_blank">Thyroid Issues</a></li>
-										<li><a href="http://www.webmd.com/a-to-z-guides/hypopituitary#1" target="_blank">Diseases of the Pituitary</a></li>
-									</ul>
-								</div>
-							</div>
-
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<!-- Services Section -->
-		<div id="services" class="text-center">
-			<div class="container">
-				<div class="section-title center">
-				<h2>Our Services</h2>
-				<hr>
-				</div>
-				<div class="row">
-					<div class="col-lg-4">
-						<div class="service wow fadeInDown animated" data-wow-delay="0.1s">
-							<a><span class="fa-stack fa-3x">
-								<i class="fa fa-circle fa-stack-2x"></i>
-								<i class="fa fa-heartbeat fa-stack-1x fa-inverse"></i>
-							</span></a>
-							<h3>Continuous Glucose Monitoring</h3>
-							<p>We utilize continuous monitoring systems for eligible patients to gain deeper insights.</p>
-						</div>
-					</div>
-					<div class="col-lg-4">
-						<div class="service wow fadeInDown animated" data-wow-delay="0.3s">
-							<a><span class="fa-stack fa-3x">
-								<i class="fa fa-circle fa-stack-2x"></i>
-								<i class="fa fa-flask fa-stack-1x fa-inverse"></i>
-							</span></a>
-							<h3>Onsite Lab Services</h3>
-							<p>We partner with Pathgroup to bring lab services and capabilities within our office.</p>
-						</div>
-					</div>
-					<div class="col-lg-4">
-						<div class="service wow fadeInDown animated" data-wow-delay="0.5s"> 
-							<a><span class="fa-stack fa-3x">
-								<i class="fa fa-circle fa-stack-2x"></i>
-								<i class="fa fa-graduation-cap fa-stack-1x fa-inverse"></i>
-							</span></a>
-							<h3>Insulin Pump Training</h3>
-							<p>We provide insulin pump training so that you can fully understand and utilize your pump.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		
-		<!-- Doctors Section -->
-		<div id="team" class="text-center">
-			<div class="container">
-				<div class="section-title center">
-					<h2>Our Staff</h2>
+					<h2>Your custom business software without the high development costs</h2>
+					<br>
 					<hr>
 				</div>
-				<div id="row">
-					<div class="col-md-6">
-						<div class="thumbnail"> <!--<img src="http://placehold.it/200x200" alt="..." class="img-thumbnail team-img">-->
-							<div class="caption">
-								<h3><a>Dr. Moazzam Habib, M.D.</a></h3>
-								<div class="bio text-left wow animated fadeIn" data-wow-delay="0.2s">
-									<p>
-										Dr. Moazzam Habib completed his medical training at the world renowned Dow Medical University in Karachi, Pakistan. He moved to the United States in 1985 in order to purse a Residency in Internal Medicine at the University of Medicine & Dentistry New Jersey at St. Peters Medical Center. Dr. Habib followed that with a Clinical Fellowship in Diabetes, Metabolism, and Endocrinology at Robert Wood Johnson Medical School in New Jersey. He has been successfully treating patients in private practice in Indianapolis since 1992
-									</p>
-									<div id="habibmd" class="collapse">
-										<p>
-											Dr. Habib specializes in the treatment of Diabetes Mellitus Type 1 & 2 and related complications, hypertensions, adrenal issues, parathyroid issues, and diseases of the pituitary. Dr. Habib is active in the medical community, and in his free time enjoys playing and performing music, traveling, as well as enjoying time with his family. 
-										</p>
-										<p>
-											Dr. Habib is highly regarded for his warm bed side manner and his ability to connect with his patients. Patients experience this with each visit when he takes time to explain the aspects of the disease a patient may be suffering from, as well as the plan of treatment.
-										</p>
-									</div>
-									<a data-toggle="collapse" data-target="#habibmd" style="cursor: pointer;">More</a>
-
-								</div>
-							</div>
+				<div class="row">
+					<div class="col-md-4 text-center">
+						<div class="service-box">
+							<i class="fa fa-4x fa-cloud-upload text-primary  zoomIn wow animated" style="visibility: visible; animation-name: zoomIn;"></i>
+							<h3>Accessibility</h3>
+							<p class="text-muted">Collaborate and share files in the cloud</p>
 						</div>
 					</div>
-					<div class="col-md-6">
-						<div class="thumbnail"> <!--<img src="http://placehold.it/200x200" alt="..." class="img-thumbnail team-img">-->
-							<div class="caption">
-								<h3><a>Stephanie Robinson, N.P.</a></h3>
-								<div class="bio text-left wow animated fadeIn" data-wow-delay="0.4s">
-									<p>
-										Stephanie Robinson, N.P. completed her undergraduate studies with a Bachelor's Degree in Nursing from Ball State University. She went on to complete her Masters of Science in Nursing from the University of Indianapolis and has been working as a Board Certified Nurse Practitioner since 2007.  Stephanie specializes in the treatment of Diabetes Type 1 & 2, Thyroid conditions, and hypertension. She stays active in the medical community, and in her free time she enjoys time with her family and traveling.
-									</p>
-									<div id="stephanienp" class="collapse">
-										<p>
-											Stephanie is well known for her warmth, bed side manner, and ability to break down and explain a patient's condition which empowers the patient to take control of their health.
-										</p>
-									</div>
-									<a data-toggle="collapse" data-target="#stephanienp" style="cursor: pointer;">More</a>
-								</div>
-							</div>
+					<div class="col-md-4 text-center">
+						<div class="service-box">
+							<i class="fa fa-4x fa-paper-plane text-primary  zoomIn wow animated" data-wow-delay="250ms" style="visibility: visible; animation-delay: 250ms; animation-name: zoomIn;"></i>
+							<h3>Streamline</h3>
+							<p class="text-muted">Streamline operations and workflows</p>
+						</div>
+					</div>
+					<div class="col-md-4 text-center">
+						<div class="service-box">
+							<i class="fa fa-4x fa-desktop text-primary  zoomIn wow animated" data-wow-delay="500ms" style="visibility: visible; animation-delay: 500ms; animation-name: zoomIn;"></i>
+							<h3>Organize</h3>
+							<p class="text-muted">Search and organize files with ease</p>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		
-		
+
+		<!-- Quote Section -->
+		<div id="quote" class="text-center">
+			<div class="container">
+				<div class="section-title center">
+					<h2>Schedule a free quote and consultation</h2>
+					<hr>
+					<br>
+					<br>
+					<a href="#intro" class="btn btn-lg btn-default page-scroll"><b>Sign Up</b></a> 
+				</div>
+			</div>
+		</div>
+
+
 		<!-- Testimonials Section -->
 		<!--<div id="testimonials" class="text-center">
 			<div class="container">
@@ -280,56 +185,7 @@
 		</div>-->
 
 
-		<!-- locations Section -->
-		<div id="locations">
-			<div class="container">
-				<div class="section-title text-center center">
-					<h2>Serving Greater Indianapolis</h2>
-					<hr>
-				</div>
-				<div class="row">
-					<div class="col-md-8">
-						<div class="wow animated fadeIn" data-wow-delay="0.4s">
-							<div class="row">
-								<div class="col-md-6">
-									<ul>
-										<li>Main Office</li>
-										<li>St. Vincent Hospital</li>
-										<li>St. Elizabeth Ann Seton Specialty Hospital</li>
-										<li>Harcourt Terrace Nursing Facility</li>
-										<li>Maple Park Nursing Facility</li>
-										<li>Pyramid Point Nursing Facility</li>
-										<li>Riverwalk Nursing Facility</li>
-										<li>Sheridan Nursing Facility</li>
-										<li>Springmill Meadows Nursing Facility</li>
-										<li>Rehabilitation Hospital of Indianapolis</li>
-										<li>Golden Living Willows Nursing Facility</li>
-									</ul>
-								</div>
-								<div class="col-md-6">
-									<ul>
-										<li>Kindred Allison Pointe Nursing Facility</li>
-										<li>Kindred Bridgewater Nursing Facility</li>
-										<li>Kindred South Long Term Acute Care Hospital</li>
-										<li>Kindred Central Long Term Acute Care Hospital</li>
-										<li>Kindred North Long Term Acute Care Hospital</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4">
-    						<div class="wow animated fadeIn" data-wow-delay="0.2s">
-							<div style="width: 100%; overflow: hidden; height: 400px;">
-								<iframe src="https://www.google.com/maps/d/embed?mid=17V15pe9IOLWI1eaDrhLdcM3cI3M" width="100%" height="446" frameborder="0" style="border:0; margin-top: -46px;"></iframe>
-							</div>
-    						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		
-		<footer>
+		<!--<footer>
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6">
@@ -378,23 +234,23 @@
 								<li><a class="page-scroll" href="#testimonials">Testimonials</a> </li>
 								<li><a class="page-scroll" href="#contact">Contact</a> </li>
 							</ul>
-							<!--<h4>Follow us</h4>
+							<h4>Follow us</h4>
 							<ul class="company-social">
 								<li class="social-facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
 								<li class="social-twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
 								<li class="social-google"><a href="#"><i class="fa fa-google-plus"></i></a></li>
 								<li class="social-vimeo"><a href="#"><i class="fa fa-vimeo-square"></i></a></li>
 								<li class="social-dribble"><a href="#"><i class="fa fa-dribbble"></i></a></li>
-							</ul>-->
+							</ul>
 						</div>
 					</div>
 				</div> 
 			</div>
-		</footer>
+		</footer>-->
 		
 		<div id="footer">
 			<div class="container">
-			<p>Copyright &copy; <a href="#" rel="nofollow">Moazzam W Habib MD</a> | Site by <a href="submithealth.com">SubmitHealth</a></p>
+			<p>Copyright &copy; <a href="#" rel="nofollow">Initial Apps LLC</a></p>
 			</div>
 		</div>
 		
