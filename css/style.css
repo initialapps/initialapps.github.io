@@ -182,7 +182,7 @@ nav a {
 	height: auto;
 	padding: 260px 0px 100px;
 	color: #ffffff;
-	background: linear-gradient(40deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)), url(../img/intro.jpeg) no-repeat center center;
+	background: linear-gradient(40deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)), url(http://res.cloudinary.com/initialapps/image/upload/v1520108434/intro.jpg) no-repeat center center;
 	background-color: #000;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -275,7 +275,7 @@ nav a {
 
 /* Testimonials Section */
 #quote {
-	background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/quote.jpeg);
+	background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(http://res.cloudinary.com/initialapps/image/upload/v1520108455/quote.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 	color: #ddd;
