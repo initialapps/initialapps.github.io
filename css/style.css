@@ -16,7 +16,6 @@ h1 strong {
 	font-family: 'Lato', sans-serif;
 }
 h2 {
-	line-height: 20px;
 	margin: 0;
 	color: #555;
 	font-family: 'Lato', sans-serif;
@@ -228,17 +227,15 @@ nav a {
 }
 #intro .intro-body .intro-text {
 	font-size: 18px;
+	letter-spacing: 1px;
+	margin-bottom: 100px;
+	color: rgba(255,255,255,0.9);
 }
 
-@media(min-width:768px) {
+@media(max-width:768px) {
 	#intro {
 		height: 100%;
-	}
-	#intro .intro-body .intro-text {
-		font-size: 18px;
-		letter-spacing: 1px;
-		margin-bottom: 100px;
-		color: rgba(255,255,255,0.9);
+		padding: 100px 0px 100px;
 	}
 }
 
@@ -246,11 +243,6 @@ nav a {
 #about {
 	padding: 180px 0;
 	background: #F9F9F9;
-}
-#about H4 {
-	font-size: 24px;
-	padding-bottom:6px;
-	color: #555555;
 }
 #about li {
 	list-style: none;
