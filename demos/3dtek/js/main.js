@@ -3,6 +3,8 @@ function main() {
 
 	(function () {
 		'use strict';
+
+		var width = window.innerWidth;  //window width
 	
 		// Preloader */
   		$(window).load(function() {
@@ -73,12 +75,22 @@ function main() {
         		});
 		});
 
-		$('.image-slider').slick({
-			slidesToShow: 3,
-			slidesToScroll: 1,
-			autoplay: true,
-			autoplaySpeed: 2000
-		});
+		// set slider based on width
+		if(width < 768) {
+			$('.image-slider').slick({
+				slidesToShow: 1,
+				slidesToScroll: 1,
+				autoplay: true,
+				autoplaySpeed: 2000
+			});
+		} else {
+			$('.image-slider').slick({
+				slidesToShow: 3,
+				slidesToScroll: 1,
+				autoplay: true,
+				autoplaySpeed: 2000
+			});
+		}
 
 	}());
 }

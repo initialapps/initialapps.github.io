@@ -182,8 +182,6 @@ nav .navbar-toggle {
 		font-size: 20px;
 		height: 60px;
 	}
-
-
 }
 
 .navbar-custom-sub .dropdown:hover .dropdown-menu {
@@ -337,6 +335,13 @@ nav .navbar-toggle {
 	color: #FFFFFF;
 	padding: 100px 0 60px;
 }
+
+@media only screen and (max-width:768px){
+	#testimonials {
+		background-attachment: initial;
+		background-size: 1800px;
+	}
+}
 #testimonials h2 {
 	color: #FFFFFF;
 }
@@ -369,6 +374,10 @@ nav .navbar-toggle {
 /* Capabilities Section */
 #capabilities {
 	padding: 80px 0;
+	opacity: .75;
+	color: #666;
+	opacity: .75;
+	color: #666;
 }
 
 #capabilities h2 {
@@ -382,12 +391,21 @@ nav .navbar-toggle {
 }
 
 #capabilities .slick-prev:before,
-.slick-next:before
-{
+.slick-next:before {
 	opacity: .75;
 	color: #666;
 }
 
+@media only screen and (max-width:768px){
+	.slick-prev {
+		left: 20px;
+		z-index: 100;
+	}
+	.slick-next {
+		right: 20px;
+		z-index: 100;
+	}
+}
 
 /* quote Section*/
 #quote {
