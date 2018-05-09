@@ -329,8 +329,8 @@ nav .navbar-toggle {
 
 /* Testimonials Section */
 #testimonials {
-	/*background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/testimonials-bg.jpg);*/
-	background-image: url(http://res.cloudinary.com/initialapps/image/upload/c_scale,w_1366/v1525840602/plane-bg.jpg);
+	background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(http://res.cloudinary.com/initialapps/image/upload/c_scale,w_1366/v1525840602/plane-bg.jpg);
+	/*background-image: url(http://res.cloudinary.com/initialapps/image/upload/c_scale,w_1366/v1525840602/plane-bg.jpg);*/
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
