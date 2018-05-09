@@ -210,13 +210,12 @@ nav .navbar-toggle {
 	height: auto;
 	padding: 0 ;
 	color: #FFFFFF;
-	background: url(../img/header-1.jpg) no-repeat center left 45%;
+	background: url(http://res.cloudinary.com/initialapps/image/upload/c_scale,w_1366/v1525840606/panel-bg.jpg) no-repeat center left 45%;
 	background-color: #000;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
-	background-attachment: fixed;
 }
 
 #intro-2 {
@@ -226,13 +225,12 @@ nav .navbar-toggle {
 	height: auto;
 	padding: 0;
 	color: #FFFFFF;
-	background: url(../img/header-2.jpg) no-repeat center left 45%;
+	background: url(http://res.cloudinary.com/initialapps/image/upload/c_scale,w_1366/v1525840604/machine-bg.jpg) no-repeat center left 45%;
 	background-color: #000;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
-	background-attachment: fixed;
 }
 
 #intro .intro-body {
@@ -331,16 +329,16 @@ nav .navbar-toggle {
 
 /* Testimonials Section */
 #testimonials {
-	background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/testimonials-bg.jpg);
+	/*background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/testimonials-bg.jpg);*/
+	background-image: url(http://res.cloudinary.com/initialapps/image/upload/c_scale,w_1366/v1525840602/plane-bg.jpg);
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
 	color: #FFFFFF;
 	padding: 100px 0 60px;
-	background-attachment: fixed;
 }
 #testimonials h2 {
-	color: #f6f6f6;
+	color: #FFFFFF;
 }
 #testimonials hr {
 	margin-bottom: 0px;
@@ -353,11 +351,11 @@ nav .navbar-toggle {
 	margin-top: 20px;
 	border: 0;
 	text-align: center;
-	color: rgba(255,255,255,0.9);
+	color: #FFFFFF;
 }
 #testimonials i {
 	font-size: 24px;
-	color: rgba(255,255,255,0.5);
+	color: #FFFFFF;
 	margin-bottom: 14px;
 }
 #testimonials .clients-name {
