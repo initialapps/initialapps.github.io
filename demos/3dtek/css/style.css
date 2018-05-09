@@ -216,6 +216,7 @@ nav .navbar-toggle {
 	-moz-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
+	background-attachment: fixed;
 }
 
 #intro-2 {
@@ -231,6 +232,7 @@ nav .navbar-toggle {
 	-moz-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
+	background-attachment: fixed;
 }
 
 #intro .intro-body {
@@ -335,6 +337,7 @@ nav .navbar-toggle {
 	background-attachment: fixed;
 	color: #FFFFFF;
 	padding: 100px 0 60px;
+	background-attachment: fixed;
 }
 #testimonials h2 {
 	color: #f6f6f6;
