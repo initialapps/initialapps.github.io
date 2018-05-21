@@ -84,6 +84,15 @@ function main() {
 				autoplaySpeed: 2000
 			});
 
+			$('.gallery-slider-for').slick({
+				slidesToShow: 1,
+				slidesToScroll: 1,
+				dots: true,
+				arrows: false,
+				fade: true,
+				asNavFor: '.gallery-slider-nav'
+			});
+
 		} else {
 			$('.image-slider').slick({
 				slidesToShow: 3,
@@ -92,15 +101,16 @@ function main() {
 				autoplaySpeed: 2000
 			});
 
+			$('.gallery-slider-for').slick({
+				slidesToShow: 1,
+				slidesToScroll: 1,
+				arrows: false,
+				fade: true,
+				asNavFor: '.gallery-slider-nav'
+			});
+
 		}
 
-		$('.gallery-slider-for').slick({
-			slidesToShow: 1,
-			slidesToScroll: 1,
-			arrows: false,
-			fade: true,
-			asNavFor: '.gallery-slider-nav'
-		});
 		
 		$('.gallery-slider-nav').slick({
 			slidesToShow: 5,
@@ -111,7 +121,6 @@ function main() {
 			centerMode: true,
 			focusOnSelect: true,
 			autoplay: true,
-			infinite: true,
 			autoplaySpeed: 4000
 		});
 
