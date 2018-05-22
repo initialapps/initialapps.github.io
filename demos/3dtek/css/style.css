@@ -95,6 +95,23 @@ nav .navbar-toggle {
 	height: 50px;
 }
 
+#top-navbar .nav-button {
+	padding: 10px 15px;
+	margin: 10px 0px 0px 15px;
+	border-radius: 5px;
+	color: #FFF;
+	font-weight: bold;
+	background: #2bb2f2;
+	text-align: center;
+}
+
+#top-navbar.navbar-shrink .nav li a.nav-button {
+	padding: 10px 15px;
+	margin: 5px 0px 5px 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
 .navbar-custom .navbar-brand .navbar-toggle:focus, .navbar-custom .navbar-brand .navbar-toggle:active {
 	outline: 0;
 	color: #FFFFFF;
@@ -173,6 +190,11 @@ nav .navbar-toggle {
 	nav .navbar-toggle {
 		margin: 8px 25px;
 	}
+	nav .navbar-collapse {
+		margin-left: auto !important;
+		margin-right: auto !important;
+	}
+
 	.navbar-custom .navbar-toggle {
 		padding: 10px 15px;;
 	}
@@ -494,16 +516,16 @@ footer p {
 }
 
 footer h2 {
-    	font-size: 21px;
-    	text-transform: uppercase;
-    	line-height: 64px;
-    	color: #FFFFFF;
-    	font-weight: bold;
-    	margin: 0;
+		font-size: 21px;
+		text-transform: uppercase;
+		line-height: 64px;
+		color: #FFFFFF;
+		font-weight: bold;
+		margin: 0;
 }
 
 footer h3 {
-    	color: #FFFFFF;
+		color: #FFFFFF;
 }
 
 footer hr {
