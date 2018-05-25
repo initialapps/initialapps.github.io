@@ -445,11 +445,8 @@ nav .navbar-toggle {
 }
 
 #services img {
-	margin-bottom:10px;
 	margin-left:auto;
 	margin-right:auto;
-	max-width:100%;
-	max-height:450px;
 }
 
 #services .slick-slide img {
@@ -460,10 +457,10 @@ nav .navbar-toggle {
 
 @keyframes slick-zoom-in {
 	0% {
-		transform:scale(.9);
+		transform:scale(1);
 	}
 	100% {
-		transform:scale(1);
+		transform:scale(1.05);
 	}
 }
 
@@ -471,7 +468,17 @@ nav .navbar-toggle {
 	opacity:1!important;
 }
 
+#services .gallery-slider-for {
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+	width:520px;
+	max-height:440px;
+	overflow: hidden;
+}
+
 #services .gallery-slider-for .slick-active img {
+	height:440px;
 	opacity:1!important;
 	transition:opacity 0.3s ease-in;
 	animation:5s ease-in 0s 1 slick-zoom-in;
