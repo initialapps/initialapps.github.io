@@ -475,12 +475,12 @@ nav .navbar-toggle {
 	margin-left:auto;
 	margin-right:auto;
 	width:520px;
-	max-height:440px;
+	max-height:400px;
 	overflow: hidden;
 }
 
 #services .gallery-slider-for .slick-active img {
-	height:440px;
+	height:400px;
 	opacity:1!important;
 	transition:opacity 0.3s ease-in;
 	animation:5s ease-in 0s 1 slick-zoom-in;
