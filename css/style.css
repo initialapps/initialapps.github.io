@@ -201,7 +201,7 @@ nav a {
 	height: auto;
 	padding: 220px 0px 140px;
 	color: #ffffff;
-	background: linear-gradient(40deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)), url(http://res.cloudinary.com/initialapps/image/upload/c_scale,w_2400/v1520108434/intro.jpg) no-repeat center center;
+	background: linear-gradient(40deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)), url(https://res.cloudinary.com/initialapps/image/upload/c_scale,w_2400/v1520108434/intro.jpg) no-repeat center center;
 	background-color: #000;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -297,7 +297,7 @@ nav a {
 
 /* Vision Section */
 #vision {
-	background:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(http://res.cloudinary.com/initialapps/image/upload/c_scale,w_1200/v1529190934/quote.jpg);
+	background:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(https://res.cloudinary.com/initialapps/image/upload/c_scale,w_1200/v1529190934/quote.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 	padding: 40px 0px;
