@@ -137,13 +137,13 @@ nav a {
 	background:#ffffff;
 }
 
-.navbar-custom .navbar-toggle {
+.navbar .navbar-toggle {
 	color: #EEEEEE;
 	border-radius: 2px;
 	padding: 0 4px;
 }
 
-.navbar-custom .navbar-toggle:hover, .navbar-custom .navbar-toggle:focus {
+.navbar .navbar-toggle:hover, .navbar-custom .navbar-toggle:focus {
 	background-color: #2ba7a1;
 	color: #FFFFFF;
 }
@@ -225,10 +225,10 @@ nav a {
 		font-size: 20px;
 		padding-left: 30px !important;
 	}
-	nav .navbar-toggle {
+	.navbar .navbar-toggle {
 		margin: 8px 25px;
 	}
-	.navbar-custom .navbar-toggle {
+	.navbar .navbar-toggle {
 		padding: 5px 8px;
 	}
 
