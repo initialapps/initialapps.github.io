@@ -1,0 +1,577 @@
+/****************  General Style  ******************/
+/* General page formating*/
+body, html {
+	font-family: 'Roboto', sans-serif;
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+	color: #4a525d;
+	width: 100% !important;
+	height: 100% !important;
+	font-size: 16px;
+}
+
+/* adds a preload spinner until your site fully loads, so it does not look weird when loading*/
+#preloader {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: #ddd;
+	z-index: 99999;
+	height: 100%;
+}
+
+#status {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 64px;
+	height: 64px;
+	margin: -32px 0 0 -32px;
+	padding: 0;
+}
+
+
+/* How you want your links to look */
+a {
+	color: #0D263B;;
+}
+
+a:hover, a:focus {
+	text-decoration: none;
+	color: #226297;
+}
+
+
+/* How your buttons will look */
+.btn {
+	border-radius: 5px;
+	font-weight: 600;
+}
+
+.btn-default {
+	color: #f6f6f6;
+	background: #0160AE;
+	border: 0;
+	padding: 12px 24px;
+	margin: 0 8px;
+	font-size: 18px;
+	transition: all 0.5s;
+}
+
+.btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active {
+	color: #f6f6f6;
+	background-color: #0160AE;
+}
+
+/* Add a separating line */
+hr {
+	height: 2px;
+	width: 80px;
+	text-align: center;
+	position: relative;
+	background: #aaa;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	border: 0;
+}
+
+/* Add some font styling */
+h2, h3 {
+	font-family:'Lato', sans-serif;
+}
+
+img {
+	max-width:100%;
+}
+
+/* How your list items will look */
+ul, ol {
+	list-style: none;
+	padding: 0;
+	webkit-padding: 0;
+	moz-padding: 0;
+}
+
+/* Some general section formating */
+.section-title.center {
+	padding: 30px 0;
+}
+
+.section-title h2, .section-title.center h2 {
+	font-size: 27px;
+	line-height: 40px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+
+/********************* Navigation *************************/
+
+
+.navbar-custom {
+	background:#ffffff;
+	margin-bottom: 0px;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+.navbar-custom .navbar-toggle {
+	color: #CCC;
+	border-radius: 5px;
+	padding: 0 4px;
+}
+.navbar-custom .navbar-toggle:hover, .navbar-custom .navbar-toggle:focus {
+	background-color: #DDDDDD;
+	color: #FFFFFF;
+}
+
+.navbar-custom .navbar-brand {
+	font-family:'Roboto', sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	padding: 5px 15px;
+	height:80px;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	transition: all .3s;
+	color: #111111;
+}
+
+.navbar-custom .navbar-brand img{
+	max-height: 100%;
+}
+
+.navbar-custom .navbar-brand .navbar-toggle:focus, .navbar-custom .navbar-brand .navbar-toggle:active {
+	outline: 0;
+	color: #FFFFFF;
+}
+
+.navbar-custom .nav-button {
+	padding: 15px 15px !important;
+	margin: 13px 0px 13px 15px !important;
+	border-radius: 5px;
+	color: #c00404 !important;
+	font-weight: bold;
+	background: transparent;
+	border: #c00404 solid 1px;
+	text-align: center;
+}
+
+.navbar-custom .nav li a {
+	font-family:'Roboto', sans-serif;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+	color: #111111;
+	padding: 30px 10px;
+}
+
+.navbar-custom .nav li a:hover {
+	outline: 0;
+	color: #c00404;
+	background-color: transparent;
+}
+
+.navbar-shrink .navbar-brand {
+	height: 60px;
+}
+
+.navbar-shrink .nav-button {
+	margin: 9px 0px 9px 15px !important;
+	padding: 10px 15px !important;
+}
+
+.navbar-shrink .nav li a {
+	font-family:'Roboto', sans-serif;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+	color: #111111;
+	padding: 20px 10px;
+	margin: 0px;
+	font-size: inherit;
+}
+
+.navbar-shrink .nav li a:hover {
+	outline: 0;
+	color: #c00404;
+	background-color: transparent;
+}
+
+.navbar-custom .nav li a:focus, .navbar-custom .nav li a:active {
+	outline: 0;
+	background-color: transparent;
+	color: #c00404;
+}
+
+.navbar-custom .nav li.active {
+	outline: 0;
+}
+
+.navbar-custom .nav li.active a {
+	background-color: rgba(255,255,255,.3);
+}
+
+.navbar-custom .nav li.active a:hover {
+	color: #c00404;
+}
+
+@media only screen and (max-width:768px){
+	.navbar-custom .navbar-brand {
+		font-size: 20px;
+	}
+
+	nav .navbar-toggle {
+		margin: 8px 25px;
+	}
+
+	nav .navbar-collapse {
+		margin-left: auto !important;
+		margin-right: auto !important;
+	}
+
+	.navbar-custom .navbar-toggle {
+		padding: 10px 15px;;
+	}
+
+	.navbar-custom .navbar-brand {
+		height: 60px;
+	}
+	
+	.navbar-custom .nav-button {
+		margin: 9px 0px 9px 15px !important;
+		padding: 10px 15px !important;
+	}
+	
+	.navbar-custom .nav li a {
+		font-family:'Roboto', sans-serif;
+		-webkit-transition: all .3s ease-in-out;
+		-moz-transition: all .3s ease-in-out;
+		transition: all .3s ease-in-out;
+		color: #111111;
+		padding: 20px 10px;
+		margin: 0px;
+		font-size: inherit;
+	}
+	
+	.navbar-custom .nav li a:hover {
+		outline: 0;
+		color: #c00404;
+		background-color: transparent;
+	}
+
+
+}
+
+/*********************** Home Section *************************/
+#intro {
+	display: table;
+	max-height: 560px;
+	color: #F4F4F4;
+	width: 100%;
+	background: linear-gradient(-90deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(https://res.cloudinary.com/initialapps/image/upload/c_scale,w_1400/v1529473109/bg1.jpg) no-repeat center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+	background-color:#EEE;
+}
+
+#intro .intro-body {
+	display: table-cell;
+	vertical-align: middle;
+	padding:350px 150px 150px;
+}
+
+#intro .intro-body H1 {
+	border-color: rgb(64, 77, 95);
+	line-height: 60px;
+	font-weight: bold;
+	font-size: 60px;
+	opacity: 1;
+	text-shadow: 1px 1;
+	letter-spacing: 1px;
+}
+
+#intro .intro-body H3 {
+	font-size: 32px;
+	font-weight: 500;
+	font-style: italic;
+	font-family: 'Merriweather', serif;
+	color: #CFCFCF;
+}
+
+#intro a{
+	color: #FFFFFF;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#intro .intro-body p {
+	font-size: 20px;
+}
+
+#intro .intro-body .brand-heading {
+	color: #2ba7a1;
+	text-shadow: 0 4px #226297;
+}
+
+#intro .intro-body .intro-text {
+	font-size: 18px;
+}
+
+@media(min-width:768px) {
+	#intro {
+		height: 100%;
+		padding: 0;
+	}
+	#intro .intro-body .intro-text {
+		font-size: 18px;
+		letter-spacing: 1px;
+		margin-bottom: 100px;
+		color: rgba(255,255,255,0.9);
+	}
+}
+
+/* making it look nice in mobile */
+@media(max-width:768px) {
+	#intro {
+		padding: 80px 0px;
+	}
+	#intro .intro-body {
+		display: table-cell;
+		vertical-align: middle;
+		padding-top: 150px;
+		padding-bottom: 150px;
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+	#intro .intro-body H1 {
+		font-size: 28px;
+		line-height: 34px;
+	}
+	#intro .intro-body H3 {
+		font-size: 22px;
+	}
+}
+
+
+/*************** Precision Components Section ****************/
+#precision-components {
+	padding: 100px 0;
+	opacity: 1;
+	color: #666;
+}
+
+#precision-components h2 {
+	color: #222222;
+	font-family: 'Lato', sans-serif;
+}
+
+#precision-components h3 {
+	font-style: italic;
+	font-family: 'Merriweather', serif;
+}
+
+#precision-components img {
+	margin-bottom:10px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+/******************* Services Section ********************/
+#industries-served {
+	color: #FFF;
+	background-color:#222222;
+}
+
+#industries-served hr{
+	margin: 20px 0px 40px 0px;
+	width: 200px;
+}
+
+#industries-served .check-list {
+	padding:50px;
+}
+
+#industries-served .industries-slider {
+	padding:0px;
+}
+
+#industries-served img {
+	margin:0px;
+}
+
+#industries-served h3 {
+	font-family: 'Merriweather', serif;
+	font-style: italic;
+}
+
+
+
+/******************* About Section *******************/
+#about {
+	padding: 80px 0 120px;
+}
+
+#about h2 {
+	color: #222222;
+}
+
+#about h3 {
+	font-family: 'Merriweather', serif;
+	font-style: italic;
+}
+
+/**************** Action Section *********************/
+#action {
+	padding: 50px 0;
+	background-color: #0160AE;
+	color: #FFFFFF;
+}
+
+#action H2 {
+	color:#FFFFFF;
+	font-size: 27px;
+	line-height: 40px;
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+};
+
+#action H3 {
+	margin: 0 0 10px;
+	font-size: 21px;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 1;
+}
+
+#action .btn-default {
+	background: none;
+	margin-top: 8px;
+	border: 1px solid #fff;
+	padding: 0;
+	display: block;
+	text-align: center;
+	line-height: 45px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+/***************** Footer Section *********************/
+footer {
+	padding: 80px 0 20px;
+	background: #2d3949;
+}
+
+footer iframe {
+	max-width:100%;
+}
+
+footer p {
+	margin-bottom: 20px;
+}
+
+footer h2 {
+		font-size: 21px;
+		text-transform: uppercase;
+		line-height: 64px;
+		color: #FFFFFF;
+		font-weight: bold;
+		margin: 0;
+}
+
+footer h3 {
+		color: #FFFFFF;
+}
+
+footer hr {
+	margin: 0px;
+	width: 200px;
+}
+
+footer li, footer a, footer p{
+	color: #FFFFFF;
+	font-family: 'Roboto', sans-serif;
+}
+
+footer ul {
+	margin-bottom:10px;
+}
+
+footer .fa-inverse {
+	color: #4a525d;
+}
+
+#footer {
+	background: #2d3949;
+	color: #777;
+	padding-bottom: 10px;
+	text-align: center;
+}
+#footer a {
+	color: #999999;
+}
+#footer a:hover {
+	color: #2ba7a1;
+}
+#footer p {
+	font-size: 16px;
+	margin-top: 10px;
+}
+
+/**************** Social Medias ******************/
+.company-social {
+	margin-left: 0;
+	padding-left: 0;
+	margin-top: 10px;
+}
+
+.company-social {
+	text-align: left;
+	list-style: none;
+}
+
+.company-social li{
+	margin:0;
+	padding:0;
+	display: inline-block;
+}
+
+.company-social a{
+	margin:0 2px 0 0;
+}
+
+.company-social a:hover {
+	color: #fff;
+}
+
+.company-social a i {
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: #fff;
+	-webkit-transition: background .3s ease-in-out;
+	transition: background .3s ease-in-out;
+	text-align: center;
+	border-radius: 50%;
+	padding:0;
+}
+
+.company-social .social-facebook a i{background: #3873ae;}
+.company-social .social-twitter a i{background: #62c6f8;}
+.company-social .social-dribble a i{background: #d74980;}
+.company-social .social-deviantart a i{background: #8da356;}
+.company-social .social-google a i {background: #ea4335;}
+.company-social .social-vimeo a i {background: #51a6d3;}
+.company-social .social-facebook a:hover i {background: #4893ce;}
+.company-social .social-twitter a:hover i {background: #82e6ff;}
+.company-social .social-dribble a:hover i {background: #f769a0;}
+.company-social .social-deviantart a:hover i {background: #adc376;}
+.company-social .social-google a:hover i {background: #961105;}
+.company-social .social-vimeo a:hover i {background: #71c6f3;}
+
+
