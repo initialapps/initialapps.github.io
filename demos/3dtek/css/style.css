@@ -369,6 +369,24 @@ nav .navbar-toggle {
 	color: #222222;
 }
 
+#about h3 {
+	color: #337ab7;
+	margin-bottom:20px;
+}
+
+#about .about-slider .slick-active img {
+	opacity:1!important;
+	transition:opacity 0.5s ease-in;
+	margin: 0 auto;
+}
+
+#about .slick-slide img {
+	opacity:0;
+	transition:opacity 0.3s ease-out;
+	margin: 0 auto;
+}
+
+
 
 /* Capabilities Section */
 #capabilities {
@@ -463,16 +481,24 @@ nav .navbar-toggle {
 	color: #222222;
 }
 
+#services h3 {
+	color: #337ab7;
+	margin-bottom:20px;
+}
+
 #services img {
 	margin-left:auto;
 	margin-right:auto;
+}
+
+#services li i {
+	color: #337ab7;
 }
 
 #services .slick-slide img {
 	opacity:0;
 	transition:opacity 0.3s ease-out;
 }
-
 
 @keyframes slick-zoom-in {
 	0% {
@@ -500,8 +526,8 @@ nav .navbar-toggle {
 #services .gallery-slider-for .slick-active img {
 	height:400px;
 	opacity:1!important;
-	transition:opacity 0.3s ease-in;
-	animation:5s ease-in 0s 1 slick-zoom-in;
+	transition:opacity 0.5s ease-in;
+	animation:7s ease-in 2s 1 slick-zoom-in;
 }
 
 @media (max-width: 768px) {
@@ -515,6 +541,10 @@ nav .navbar-toggle {
 	}
 }
 
+#services .gallery-slider-nav {
+    margin-left: 75px;
+    margin-right: 75px;
+}
 
 /* quote Section*/
 #quote {
@@ -581,6 +611,12 @@ footer ul {
 
 footer .fa-inverse {
 	color: #4a525d;
+}
+
+footer .iso {
+	background: #fff;
+	border-radius: 20px;
+	max-width:125px;
 }
 
 #footer {
