@@ -333,7 +333,16 @@ nav .navbar-toggle {
 		padding-left: 50px;
 		padding-right: 50px;
 	}
+	#intro .intro-body H1 {
+		line-height: inherit;
+		font-size: 30px;
+	}
+	#intro .intro-body H3 {
+		line-height: inherit;
+		font-size: 24px;
+	}
 }
+
 .btn-default {
 	color: #f6f6f6;
 	background: #2bb2f2;
@@ -639,12 +648,6 @@ footer .iso {
 @media (max-width: 768px) {
 	.hover-bg .hover-text {
 		padding: 20%;
-	}
-}
-
-@media (max-width: 640px) {
-	#intro .intro-body H1 {
-		font-size: 2.5em;
 	}
 }
 
