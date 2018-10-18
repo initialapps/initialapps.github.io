@@ -245,8 +245,6 @@ nav .navbar-toggle {
 	height: auto;
 	padding: 0 ;
 	color: #FFFFFF;
-	/*background: url(http://res.cloudinary.com/initialapps/image/upload/c_scale,w_1366/v1525840606/panel-bg.jpg) no-repeat center left 45%;*/
-	/*background: url(../img/optiv.jpg) no-repeat center left 45%;*/
 	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/optiv.jpg) no-repeat center left 45%;
 	background-color: #000;
 	-webkit-background-size: cover;
@@ -263,9 +261,6 @@ nav .navbar-toggle {
 	padding: 0;
 	color: #FFFFFF;
 	background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/5-axis.jpg);
-	/*background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(http://res.cloudinary.com/initialapps/image/upload/c_scale,w_1366/v1525840604/machine-bg.jpg);*/
-	/*background: url(http://res.cloudinary.com/initialapps/image/upload/c_scale,w_1366/v1525840604/machine-bg.jpg) no-repeat center left 45%;*/
-	/*background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/multi-axis-cnc-lathe.jpeg);*/
 	background-color: #000;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -451,8 +446,6 @@ nav .navbar-toggle {
 
 /* Testimonials Section */
 #testimonials {
-	/*background:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(http://res.cloudinary.com/initialapps/image/upload/c_scale,w_1366/v1525840604/machine-bg.jpg);*/
-	/*background-image: url(http://res.cloudinary.com/initialapps/image/upload/c_scale,w_1366/v1525840602/plane-bg.jpg);*/
 	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/multi-axis-cnc-lathe.jpeg);
 	background-size: cover;
 	background-position: center;
