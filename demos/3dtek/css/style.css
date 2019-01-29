@@ -454,6 +454,15 @@ nav .navbar-toggle {
 	z-index: -1;
 }
 
+@media(max-width:768px) {
+        #five-axis h1 {
+                font-size: 32px;
+        }
+        #five-axis h3 {
+                font-size: 28px;
+        }
+}
+
 /* Capabilities Section */
 #capabilities {
 	padding: 80px 0;

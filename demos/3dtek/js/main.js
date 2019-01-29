@@ -135,6 +135,16 @@ function main() {
 			autoplaySpeed: 6000
 		});
 
+		// for mobile devices
+		var banner = document.querySelector('.banner');
+		var bannerVideo = document.querySelector('.banner__video');
+		if (/iPad|iPhone|iPod/.test(navigator.platform)) {
+	  		banner.style.backgroundImage = 'url("' + bannerVideo.poster + '")';
+			banner.style.backgroundSize = 'cover';
+			banner.style.backgroundPosition = 'center';
+			bannerVideo.style.display = 'none';
+		}
+
 	}());
 }
 main();
