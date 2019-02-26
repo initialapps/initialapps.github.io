@@ -70,7 +70,7 @@ function main() {
 				slideSpeed : 300,
 				paginationSpeed : 400,
 				singleItem:true
-        		});
+			});
 		});
 
 
@@ -138,11 +138,12 @@ function main() {
 		// for mobile devices
 		var banner = document.querySelector('.banner');
 		var bannerVideo = document.querySelector('.banner__video');
+
 		if (/iPad|iPhone|iPod/.test(navigator.platform)) {
-	  		banner.style.backgroundImage = 'url("' + bannerVideo.poster + '")';
-			banner.style.backgroundSize = 'cover';
-			banner.style.backgroundPosition = 'center';
-			bannerVideo.style.display = 'none';
+			 banner.style.background = 'linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url("' + bannerVideo.poster + '")';
+			 banner.style.backgroundSize = 'cover';
+			 banner.style.backgroundPosition = 'center';
+			 bannerVideo.style.display = 'none';
 		}
 
 	}());

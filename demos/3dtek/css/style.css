@@ -394,6 +394,7 @@ nav .navbar-toggle {
 	text-transform: uppercase;
 }
 
+
 /* About Section */
 #about {
 	padding: 80px 0 100px;
@@ -421,6 +422,7 @@ nav .navbar-toggle {
 	margin: 0 auto;
 }
 
+
 /* 5-Axis Section */
 #five-axis h1 {
 	color: #FFFFFF;
@@ -435,11 +437,20 @@ nav .navbar-toggle {
 	font-size: 36px;
 }
 
+@media(max-width:768px) {
+	#five-axis h1 {
+		font-size: 30px;
+	}
+	#five-axis h3 {
+		font-size: 24px;
+	}
+}
+
 #five-axis .banner {
 	padding: 140px 0px;
 	position: relative;
 	overflow: hidden;
-	background: rgba(0, 0, 0, 0.5) url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAF0lEQVQIW2NkYGD4z8DAwMgAI0AMDA4AI3EBBCKrOnQAAAAASUVORK5CYII=");
+	background: rgba(0, 0, 0, .5) url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAF0lEQVQIW2NkYGD4z8DAwMgAI0AMDA4AI3EBBCKrOnQAAAAASUVORK5CYII=');
 }
 
 #five-axis .banner__video {
@@ -454,14 +465,6 @@ nav .navbar-toggle {
 	z-index: -1;
 }
 
-@media(max-width:768px) {
-        #five-axis h1 {
-                font-size: 32px;
-        }
-        #five-axis h3 {
-                font-size: 28px;
-        }
-}
 
 /* Capabilities Section */
 #capabilities {
